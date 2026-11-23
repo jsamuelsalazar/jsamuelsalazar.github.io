@@ -1,0 +1,95 @@
+/* Tema naranja Tortas Jerry
+   Cargar después de css/estilos.css para conservar la estructura original. */
+:root {
+  --rojo-principal: #F47B20;
+  --rojo-secundario: #E96812;
+  --color-principal: #F47B20;
+  --color-secundario: #FF9F43;
+  --naranja-jerry: #F47B20;
+  --naranja-claro: #FF9F43;
+  --negro-jerry: #242424;
+  --blanco-calido: #FFF8F0;
+  --color-fondo: #FFF8F0;
+}
+
+/* Identidad general */
+html { scroll-behavior: smooth; }
+body { background-color: #FFF8F0; }
+a { text-decoration-color: #F47B20; }
+::selection { background: #F47B20; color: #fff; }
+
+/* Navegación */
+.custom-navbar {
+  background: #242424 !important;
+  border-bottom: 3px solid #F47B20;
+}
+.custom-navbar .nav-link { color: #FFF8F0 !important; }
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active { color: #FF9F43 !important; }
+.custom-toggler { border-color: #F47B20 !important; }
+.hamburger-lines .line { background-color: #F47B20 !important; }
+
+/* Botones, filtros y controles */
+.btn-custom, .category-btn.active, .category-btn:hover,
+button.category-btn.active, .carousel-indicators [data-bs-target] {
+  background-color: #F47B20 !important;
+  border-color: #F47B20 !important;
+  color: #fff !important;
+}
+.btn-custom:hover { background-color: #D95F0B !important; }
+.category-btn { border-color: #F47B20 !important; }
+button, .btn { accent-color: #F47B20; }
+
+/* Titulares, encabezados de sección y acentos */
+.title-wrapper, .menu-title-wrapper {
+  background-color: #F47B20 !important;
+}
+.title-wrapper h2, .menu-title-wrapper,
+.menu-title-wrapper .title-main { color: #fff !important; }
+h1, h2, h3, h4,
+.about-title-main, .pillars-title-main,
+.delivery-title { text-decoration-color: #F47B20; }
+a:hover, .phone-link { color: #D95F0B; }
+
+/* Inicio y novedades */
+.hero-overlay { background: rgba(36, 36, 36, .55) !important; }
+.slider-section { background-color: #F47B20 !important; }
+.slider-section h2 { color: #fff !important; }
+.item-overlay { background: linear-gradient(0deg, rgba(36,36,36,.88), rgba(244,123,32,.18)) !important; }
+.grid-item:hover .item-overlay { background: rgba(244,123,32,.78) !important; }
+
+/* Menú y tarjetas */
+.menu-categories { background: #FFF8F0; }
+.product-item, .pillar-box, .service-item, .branch-info {
+  border-color: rgba(244,123,32,.35);
+}
+.product-item h3, .pillar-title { color: #E96812 !important; }
+.product-item:hover { border-color: #F47B20 !important; }
+.title-pricing strong, .subtitle-warning { color: #D95F0B !important; }
+
+/* Nosotros y sucursales */
+.about-section, .pillars-section { background-color: #FFF8F0; }
+.pillars-title-main, .about-title-main { color: #E96812 !important; }
+.pillar-box.active, .pillar-box:hover { border-color: #F47B20 !important; }
+.info-icon { filter: hue-rotate(145deg) saturate(1.15); }
+.branch-section .title-wrapper { background: #F47B20 !important; }
+
+/* Servicios */
+#servicios, .service-item { background-color: #FFF8F0; }
+.service-item h3 { color: #E96812 !important; }
+
+/* Pie de página */
+footer {
+  background-color: #242424 !important;
+  border-top: 4px solid #F47B20;
+  color: #FFF8F0 !important;
+}
+footer h4 { color: #FF9F43 !important; }
+footer a, footer p, footer span { color: #FFF8F0 !important; }
+footer a:hover { color: #FF9F43 !important; }
+
+/* Detalles y estados */
+.form-control:focus, .form-select:focus {
+  border-color: #F47B20 !important;
+  box-shadow: 0 0 0 .2rem rgba(244,123,32,.2) !important;
+}
